@@ -1,2 +1,2 @@
 # improvedATAC
-Algorithm for improve the deconvolution of spatial ATAC 
+Algorithm for improving the deconvolution of spatial ATAC 
