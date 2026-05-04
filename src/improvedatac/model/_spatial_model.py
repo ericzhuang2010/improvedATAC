@@ -51,7 +51,7 @@ class ATACDeconvModel:
     likelihood
         ``"poisson"`` (default), ``"nb"``, or ``"zip"``.
     use_gpu
-        Whether to move tensors to a CUDA device (if available).
+        Whether to move tensors to a gpu CUDA device (if available).
     """
 
     def __init__(

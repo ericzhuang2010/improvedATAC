@@ -1,8 +1,8 @@
 """Reference accessibility signature estimation.
 
 Computes per-cell-type mean accessibility profiles (theta_{c,p}) from
-scATAC reference data.  These serve as the fixed basis matrix in the
-spatial deconvolution model.
+scATAC reference data.  
+These serve as the fixed basis matrix in the spatial deconvolution model.
 """
 
 from typing import Optional
@@ -84,7 +84,7 @@ def compute_normalized_signatures(
         \frac{1}{|C_c|}\sum_{i \in C_c} \frac{x_{i,p}}{\ell_i} \cdot s
 
     where :math:`\ell_i` is the library size of cell *i* and *s* is a
-    scaling constant (default 10 000).
+    scaling constant (default is 10 000).
 
     Parameters
     ----------
@@ -97,7 +97,7 @@ def compute_normalized_signatures(
     shrinkage
         Shrinkage toward global mean.
     scale
-        Multiplicative scale factor applied after library-size normalisation.
+        Scale factor applied after library-size normalisation.
 
     Returns
     -------

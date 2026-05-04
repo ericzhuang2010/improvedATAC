@@ -1,6 +1,6 @@
 """High-level deconvolution entry point.
 
-Controls the full pipeline: reference signature estimation →
+Controls the whole processing: reference signature estimation →
 peak scoring → model training → posterior export.
 """
 
